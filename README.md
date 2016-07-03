@@ -3,6 +3,9 @@ Chromebook has some quirks when developing, I'm hoping to flesh some of those ou
 
 I am using [crouton](https://github.com/dnschneid/crouton) which has proven to be *amazing*.  One issue I have run into however is running services/daemons/servers on the chroot that crouton provides.
 
+### Installing mongodb
+If you've never installed mongodb, you may have some issues with permissions and file directories which you will need to resolve. Simply create the missing directories, and `chmod` The appropriate folder.
+
 ### Running servers
 Recently I found this link in the wiki:
 * [running servers in crouton](https://github.com/dnschneid/crouton/wiki/Running-servers-in-crouton)
