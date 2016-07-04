@@ -1,4 +1,5 @@
 # Developing on Chromebook
+I have recently been developing [my webapp](https://github.com/kinseyost/immutable-redux) using a chromebook.  Many of the technologies from the framework I am using require an intel chip.
 Chromebook has some quirks when developing, I'm hoping to flesh some of those out.
 
 I am using [crouton](https://github.com/dnschneid/crouton) which has proven to be *amazing*.  One issue I have run into however is running services/daemons/servers on the chroot that crouton provides.
